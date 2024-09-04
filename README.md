@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the project to your local environment:
     ```
-    git clone https://github.com/ankitrajput0096/Basic_React_App_From_Scratch_With_React_Router_6
+    git clone https://github.com/ankitrajput0096/Basic_React_App_From_Scratch_With_React_Router
     ```
 
 2. You need npm to be installed:
