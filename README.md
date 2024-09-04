@@ -1,6 +1,6 @@
-# Basic React App From Scratch With React-Router 4
+# Basic React App From Scratch With React-Router 6
 
-Basic React App using React, React-Router4, WebPack 4 and Babel.
+Basic React App using React, React-Router 6, WebPack 4 and Babel.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the project to your local environment:
     ```
-    git clone https://github.com/ankitrajput0096/Basic_React_App_From_Scratch_With_React_Router_4
+    git clone https://github.com/ankitrajput0096/Basic_React_App_From_Scratch_With_React_Router_6
     ```
 
 2. You need npm to be installed:
@@ -57,7 +57,7 @@ Start App in Prod Environment:
 npm run fireTheProd
 ```
 
-Your application should be now running on http://localhost:8080
+Your application should be now running on http://localhost:9090
 
 
 ## Built With

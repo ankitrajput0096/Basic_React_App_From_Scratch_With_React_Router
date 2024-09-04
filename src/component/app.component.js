@@ -6,10 +6,13 @@ class MyComponent extends Component {
   render() {
     return (
     <div>
-      <div className={"intro"}>Hello World</div>
-      <img src={logo} alt="Logo" />
-      <div>Awesome!!!</div>
-      <NavLink to='/about'>Click here to go About us </NavLink>
+      <h1>Awesome!!!</h1>
+      <h1>Welcome to Dashboard HomePage</h1>
+      <NavLink to='/about'>
+        <button type="button" class="button">
+          Click here to go About us 
+        </button>
+      </NavLink>
     </div>
     );
   }

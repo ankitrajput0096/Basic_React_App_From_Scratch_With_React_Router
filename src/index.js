@@ -1,10 +1,16 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-// import App from "./component/app.component";
-
+// src/index.js
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 import AppRoutes from './routes/routes';
 
-ReactDOM.render(<AppRoutes />, document.querySelector("#root"));
+const domNode = document.getElementById('root');
+const root = createRoot(domNode);
+
+root.render(
+    <React.StrictMode>
+        <AppRoutes />
+    </React.StrictMode>
+);
 
 if (module.hot) {
     module.hot.accept();
